@@ -10,6 +10,8 @@ updates:
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: "all"
+    # Allow up to 90 open pull requests
+    open-pull-requests-limit: 90
 
   # Maintain dependencies for Cargo
   - package-ecosystem: "cargo"
@@ -19,6 +21,8 @@ updates:
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: "all"
+    # Allow up to 90 open pull requests
+    open-pull-requests-limit: 90
 
   # Maintain dependencies for Composer
   - package-ecosystem: "composer"
@@ -28,6 +32,8 @@ updates:
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: "all"
+    # Allow up to 90 open pull requests
+    open-pull-requests-limit: 90
 
   # Maintain dependencies for Docker
   - package-ecosystem: "docker"
@@ -37,6 +43,8 @@ updates:
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: "all"
+    # Allow up to 90 open pull requests
+    open-pull-requests-limit: 90
 
   # Maintain dependencies for Hex
   - package-ecosystem: "mix"
@@ -46,6 +54,8 @@ updates:
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: "all"
+    # Allow up to 90 open pull requests
+    open-pull-requests-limit: 90
 
   # Maintain dependencies for elm
   - package-ecosystem: "elm"
@@ -55,6 +65,8 @@ updates:
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: "all"
+    # Allow up to 90 open pull requests
+    open-pull-requests-limit: 90
 
   # Maintain dependencies for Git Submodule
   - package-ecosystem: "gitsubmodule"
@@ -64,6 +76,8 @@ updates:
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: "all"
+    # Allow up to 90 open pull requests
+    open-pull-requests-limit: 90
 
   # Maintain dependencies for GitHub Actions
   - package-ecosystem: "github-actions"
@@ -73,6 +87,8 @@ updates:
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: "all"
+    # Allow up to 90 open pull requests
+    open-pull-requests-limit: 90
 
   # Maintain dependencies for Go Modules
   - package-ecosystem: "gomod"
@@ -82,6 +98,8 @@ updates:
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: "all"
+    # Allow up to 90 open pull requests
+    open-pull-requests-limit: 90
 
   # Maintain dependencies for Gradle
   - package-ecosystem: "gradle"
@@ -91,6 +109,8 @@ updates:
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: "all"
+    # Allow up to 90 open pull requests
+    open-pull-requests-limit: 90
 
   # Maintain dependencies for Maven
   - package-ecosystem: "maven"
@@ -100,6 +120,8 @@ updates:
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: "all"
+    # Allow up to 90 open pull requests
+    open-pull-requests-limit: 90
   
   # Maintain dependencies for npm and yarn
   - package-ecosystem: "npm"
@@ -109,6 +131,8 @@ updates:
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: "all"
+    # Allow up to 90 open pull requests
+    open-pull-requests-limit: 90
       
   # Maintain dependencies for NuGet
   - package-ecosystem: "nuget"
@@ -118,6 +142,8 @@ updates:
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: "all"
+    # Allow up to 90 open pull requests
+    open-pull-requests-limit: 90
       
   # Maintain dependencies for pip, pipenv, pip-compile, and poetry
   - package-ecosystem: "pip"
@@ -127,6 +153,8 @@ updates:
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: "all"
+    # Allow up to 90 open pull requests
+    open-pull-requests-limit: 90
       
   # Maintain dependencies for Terraform
   - package-ecosystem: "terraform"
@@ -136,3 +164,5 @@ updates:
     allow:
       # Allow both direct and indirect updates for all packages
       - dependency-type: "all"
+    # Allow up to 90 open pull requests
+    open-pull-requests-limit: 90
