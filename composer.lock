@@ -1270,7 +1270,7 @@
                 "ext-openssl": "*",
                 "fruitcake/php-cors": "^1.2",
                 "laravel/serializable-closure": "^1.0",
-                "league/commonmark": "^2.2",
+                "league/commonmark": "^2.6.0",
                 "league/flysystem": "^3.0.16",
                 "monolog/monolog": "^2.0",
                 "nesbot/carbon": "^2.53.1",
